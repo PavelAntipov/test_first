@@ -1,7 +1,6 @@
 
 ```mermaid
-untracked -- "git add" --> staged;
-  graph LR;
+graph LR;
       A-->B;
       C-->B;
       B-->D;
