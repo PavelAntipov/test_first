@@ -1,8 +1,8 @@
 
 ```mermaid
 graph LR;
-      A-->B;
-      C-->B;
-      B-->D;
-      D-->C;
+      Untracked --"git add" --> Staged ;
+      Modified -- "git add"-->Staged;
+      Staged -- "git commit"--> Tracked;
+      Tracked-- modifications -->Modified;
 ```
